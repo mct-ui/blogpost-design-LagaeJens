@@ -25,7 +25,7 @@ body {
  */
 
 ::selection {
-    background: #e85e00;
+    background: #00e6a1;
     color: white;
     text-shadow: none;
 }
@@ -48,7 +48,6 @@ img {
 */
 
 h1 {
-    font-family: "Times New Roman", serif;
     font-size: 36px;
     font-weight: normal;
     line-height: 40px;
@@ -65,6 +64,12 @@ h3 {
     font-size: 18px;
     line-height: 24px;
     margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+    color: #17181A;
 }
 
 h4,
@@ -123,18 +128,18 @@ hr {
 }
 
 a {
-    color: RoyalBlue;
+    color: #00A1E6;
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: BlueViolet;
+    color: #00e6a1;
 }
 
 a:hover,
 a:focus {
-    color: Crimson;
+    color: #1abaff;
 }
 
 /* Small devices (landscape phones, 576px and up) */
